@@ -1,0 +1,8 @@
+INFO Usuario login correcto
+GET /api/data?id=1
+ERROR login fallido
+GET /login?user=admin'--
+GET /login?user=' OR '1'='1
+GET /data?id=1 UNION SELECT password
+DROP TABLE users;
+EXEC xp_cmdshell('dir')
